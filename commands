@@ -1,0 +1,39 @@
+#Ubuntu OS
+
+#update OS
+
+sudo apt update
+
+#install docker
+
+sudo apt install docker.io
+
+sudo systemctl start docker
+
+sudo systemctl status docker
+
+
+#allow sudo permissions to user
+
+sudo usermod -aG docker ubuntu
+
+sudo chown ubuntu /var/run/docker.sock
+
+docker ps
+
+
+#git commands
+
+change directory to F
+
+#make folder for project
+
+mkdir Project-Disney-Clone
+
+cd Project-Disney-Clone/
+
+git init:
+
+git add .
+
+git commit -m "first commit"
