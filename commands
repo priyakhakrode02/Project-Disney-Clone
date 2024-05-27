@@ -32,8 +32,12 @@ mkdir Project-Disney-Clone
 
 cd Project-Disney-Clone/
 
-git init:
+git init
 
 git add .
 
 git commit -m "first commit"
+
+git remote add origin git@github.com:priyakhakrode02/Project-Disney-Clone.git
+
+git push -u origin master
